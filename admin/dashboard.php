@@ -1,8 +1,17 @@
 <?php
+
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header("Location: index.php");
+    exit;
+}
+
+
 require_once "../config.php";
 
 $stmt = $pdo->query("SELECT * FROM newsletter_subscribers ORDER BY date_inscription DESC");
 $subscribers = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
@@ -17,9 +26,30 @@ $subscribers = $stmt->fetchAll(PDO::FETCH_ASSOC);
     th { background:#333; }
     a { color: #ff5757; }
     .container { max-width: 900px; margin: auto; }
+
+    .logout-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background: rgba(255, 255, 255, 1);
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+
+    .logout-btn:hover {
+        background: #900;
+        color: white;
+    }
+
 </style>
 </head>
 <body>
+
+<div>
+    <a href="logout.php" class="logout-btn">Se déconnecter</a>
+</div>
 
 <div class="container">
     <h1>Liste des abonné.e.s newsletter</h1>

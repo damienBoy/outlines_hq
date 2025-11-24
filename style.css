@@ -62,7 +62,7 @@ body {
   }
 
   .burger {
-    margin-right: 20px;
+    margin-right: 10%;
   }
 }
 
@@ -107,7 +107,7 @@ body {
   .nav-links {
     position: absolute;
     top: 20px;
-    right: 0;
+    right: 0px;
     flex-direction: column;
     background: black;
     width: 20%;
@@ -357,11 +357,20 @@ footer {
 .social-icons {
   display: flex;
   gap: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .social-icons img {
   width: 30px;
+}
+
+.footer-links {
+  margin-bottom: 1em;
+}
+
+.footer-links a {
+  color: white;
+  font-size: 1.2em;
 }
 
 .footer-center {
@@ -381,7 +390,7 @@ footer {
   flex-direction: column;
   background: white;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 #newsletterForm label {

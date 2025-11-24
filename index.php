@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta description="Outlines est un collectif de musique électronique. Découvre et retrouve ici nos événements, podcasts, galeries et merch exclusifs. Rejoins la communauté Outlines !">
   <title>Outlines HQ</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
@@ -58,7 +59,7 @@
       </div>
     
       <div id="merchBlock">
-        <div class="boxName"><h3>Merch drop:</h3></div>
+        <div class="boxName"><h3>Merch drop :</h3></div>
         <div class="boxTitle">Limited T-shirt</div>
         <div class="boxInfos">T-shirt Logo B&W<br>Unisex<br>Taille S-XL</div>
         <div class="boxPic"><img src="./img/tshirt_merch.webp" alt="Tshirt Outlines" class="boxImage"></div>
@@ -84,8 +85,13 @@
               title="SoundCloud" alt="Soundcloud"></a>
           <a href="#" target="_blank"><img src="./img/icon-bandcamp2.png" title="Bandcamp" alt="Bancdamp"></a>
         </div>
-        <p>Mentions Légales | Politique de Confidentialité | CGU</p>
+        <div class="footer-links">
+          <a href="legal-notice.php">Mentions Légales</a> |
+          <a href="privacy-policy.php">Politique de Confidentialité</a> |
+          <a href="terms-of-use.php">CGU</a>
+        </div>
         <p>© Outlines 2025 - Tous droits réservés</p>
+        
       </div>
 
       <!-- Bloc central : Podcast -->
