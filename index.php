@@ -19,8 +19,7 @@
     <nav class="navbar" role="navigation" aria-label="Navigation principale">
       <a href="index.php" class="logo" aria-label="Retour à l’accueil"><img src="./img/Outlines_Logo_White.png" alt="Outlines Logo"></a>
       
-      <button class="burger"><a href="#"><img src="./img/Menu Button.png" alt=""></a></button>
-
+      <button class="burger"><img src="./img/burger_button.png" alt=""></a></button>
       <ul class="nav-links">
         <li><a href="#">Events</a></li>
         <li><a href="#">Audio</a></li>
@@ -30,6 +29,8 @@
         <li><a href="#">Contacts</a></li>
         <li class="close-btn">→</li>
       </ul>
+
+
     </nav>
   </header>
 
