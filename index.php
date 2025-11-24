@@ -10,15 +10,14 @@
 </head>
 <body>
 
-  
   <!-- IMAGE DE FOND -->
   <img src="./img/Pics/back_picture.webp" alt="photo soirée" class="background-image">
 
 
   <!-- NAVBAR -->
   <header>
-    <nav class="navbar">
-      <a href="#" class="logo"><img src="./img/Outlines_Logo_White.png" alt="Outlines Logo"></a>
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+      <a href="index.php" class="logo" aria-label="Retour à l’accueil"><img src="./img/Outlines_Logo_White.png" alt="Outlines Logo"></a>
       
       <button class="burger"><a href="#"><img src="./img/Menu Button.png" alt=""></a></button>
 
@@ -39,7 +38,7 @@
 
     <!-- BANDEAU NEWS -->
     <div class="news-banner">
-      <p id="bandeau">🚨 NEWS DE LA SEMAINE : NOUVEAU DROP DE MERCH DISPO ! 🚨 NEXT EVENT : 30 / 01 🚨 TEA TIME
+      <p id="bandeau" role="status" aria-live="polite">🚨 NEWS DE LA SEMAINE : NOUVEAU DROP DE MERCH DISPO ! 🚨 NEXT EVENT : 30 / 01 🚨 TEA TIME
         PODCAST : DISPO SUR SOUNDCLOUD 🚨 ABONNE-TOI A LA NEWSLETTER POUR AVOIR DES REDUC SUR LE MERCH ET LA BILLETTERIE
         🚨</p>
     </div>
@@ -51,7 +50,7 @@
     <section class="dualBlocks">
 
       <div id="eventBlock">
-        <div class="boxName"><h3>Prochain RDV :</h3></div>
+        <div class="boxName"><h2>Prochain RDV :</h2></div>
         <div class="boxTitle">WAVZ#1</div>
         <div class="boxInfos">21 Novembre 2025<br>Le BouduPont<br>Gratuit</div>
         <div class="boxPic"><img src="./img/Outlines_wavz_final_6.webp" alt="flyer event" class="boxImage"></div>
@@ -59,7 +58,7 @@
       </div>
     
       <div id="merchBlock">
-        <div class="boxName"><h3>Merch drop :</h3></div>
+        <div class="boxName"><h2>Merch drop :</h2></div>
         <div class="boxTitle">Limited T-shirt</div>
         <div class="boxInfos">T-shirt Logo B&W<br>Unisex<br>Taille S-XL</div>
         <div class="boxPic"><img src="./img/tshirt_merch.webp" alt="Tshirt Outlines" class="boxImage"></div>
